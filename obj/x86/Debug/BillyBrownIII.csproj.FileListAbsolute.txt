@@ -1,0 +1,2 @@
+X:\BillyBrownIII.github.io\obj\x86\Debug\BillyBrownIII.csprojAssemblyReference.cache
+X:\BillyBrownIII.github.io\obj\x86\Debug\BillyBrownIII.csproj.CoreCompileInputs.cache
