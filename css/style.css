@@ -745,7 +745,7 @@ ul.banner-menu-w3layouts li a:hover {
 	color:#d34836;   
 } 
 .social-wthree-icons ul li a.fa.linkedin-square:hover{
-	color:#ec4a89;   
+	color:#0077b5;   
 } 
 /* facebook */
 .icon-border.facebook::before {
@@ -794,18 +794,18 @@ ul.banner-menu-w3layouts li a:hover {
 } 
 /* LinkedIN */
 .icon-border.linkedin-square::before {
-	-webkit-box-shadow: inset 0 0 0 48px #ec4a89;
-	-moz-box-shadow: inset 0 0 0 48px #ec4a89;
-	-o-box-shadow: inset 0 0 0 48px #ec4a89;
-	-ms-box-shadow: inset 0 0 0 48px #ec4a89;
-	box-shadow: inset 0 0 0 48px #ec4a89;
+	-webkit-box-shadow: inset 0 0 0 48px #0077b5;
+	-moz-box-shadow: inset 0 0 0 48px #0077b5;
+	-o-box-shadow: inset 0 0 0 48px #0077b5;
+	-ms-box-shadow: inset 0 0 0 48px #0077b5;
+	box-shadow: inset 0 0 0 48px #0077b5;
 } 
 .icon-border.linkedin-square:hover::before {
-	-webkit-box-shadow: inset 0 0 0 2px #ec4a89;
-	-moz-box-shadow: inset 0 0 0 2px #ec4a89;
-	-o-box-shadow: inset 0 0 0 2px #ec4a89;
-	-ms-box-shadow: inset 0 0 0 2px #ec4a89;
-	box-shadow: inset 0 0 0 2px #ec4a89;
+	-webkit-box-shadow: inset 0 0 0 2px #0077b5;
+	-moz-box-shadow: inset 0 0 0 2px #0077b5;
+	-o-box-shadow: inset 0 0 0 2px #0077b5;
+	-ms-box-shadow: inset 0 0 0 2px #0077b5;
+	box-shadow: inset 0 0 0 2px #0077b5;
 }  
 /*-- //social-wthree-icons --*/ 
 /*-- model --*/
