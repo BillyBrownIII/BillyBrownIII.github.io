@@ -296,7 +296,7 @@ padding:5em 0;
 	text-align: center;
 }
 .w3_head_pop h3 span {
-    color: #04b962;
+    color: #7dfa00;
 }
 .w3_head_pop.skills_span span {
     color: #fff;
@@ -353,7 +353,7 @@ h3.agile_tittle.two {
 
 .bar-grids h6 {
     font-size: 1.2em;
-    color: #04b962;
+    color: #7dfa00;
     margin-bottom: 0.6em;
     text-transform: capitalize;
     font-weight: 600;
@@ -440,8 +440,8 @@ h3.agile_tittle.two {
     font-weight: normal;
     color: #fff;
     display: block;
-background-color: #04b962cc;
-    border-color: #04b962cc;
+background-color: #7dfa00cc;
+    border-color: #7dfa00cc;
     outline: none;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -514,7 +514,7 @@ background-color: #04b962cc;
     font-size: 14px;
 }
 .navbar-header.navbar-left.footer-logo h2 a {
-    color: #04b962;
+    color: #7dfa00;
     letter-spacing: 1px;
     font-weight: 500;
     font-family: 'Julius Sans One', sans-serif;
@@ -540,7 +540,7 @@ iframe {
 	padding:3em 0;
 }
 .w3ls-address-grid i{
-	color: #04b962;
+	color: #7dfa00;
     font-size: 20px;
     float: left;
     margin: 0 4% 0 0;
@@ -653,7 +653,7 @@ ul.w3_address li span a:hover{
 }
 ul.w3_address li i {
     font-size: 1.8em;
-    color: #04b962;
+    color: #7dfa00;
     text-align: center;
     display: inline-block;
     width: 75px;
@@ -826,7 +826,7 @@ ul.banner-menu-w3layouts li a:hover {
 .modal-header h4 span{
    text-transform: uppercase;
     /* font-weight: 300; */
-    color: #04b962;
+    color: #7dfa00;
     letter-spacing: 1px;
 }
 .modal-body p{
@@ -1202,7 +1202,7 @@ p.footer-w3l-te {
 }
 .w3-banner-bot_icon_icon i {
     font-size: 2.5em;
-    color: #04b962;
+    color: #7dfa00;
 }
 .w3layouts_gallery_grid a {
     bottom: 5em;
