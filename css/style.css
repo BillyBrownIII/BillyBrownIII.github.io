@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-body{
+body{col-md-3 w3ls_about_guage
 	margin:0;
 	font-family: 'Roboto', sans-serif; 
 	background: #181B27;
@@ -281,7 +281,7 @@ padding:5em 0;
     text-align: center;
 }
 .w3ls_about_guage h4 {
-    font-size: 1.3em;
+    font-size: 3em;
     color: #fff;
     margin-top: 30px;
 }
