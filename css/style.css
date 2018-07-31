@@ -11,15 +11,16 @@ Additional editable elements VVV
 --*/
 
 element{
---main-bg-color: #fff; /*--#181B27--*/
---secondary-color: ;
---default-background-image: ;
---main-background-image: ;
---about-background-image: ;
---skills-background-image: ;
---interests-background-image: ;
---contact-background-image: ;
---contact-modal-background-image;
+--main-bg-color: #181B27;
+--secondary-color: #04b962;
+--white-color: #fff;
+--default-background-image: ../images/c2.jpg;
+--main-background-image: ../images/BillyBrownIII.jpg;
+--about-background-image: ../images/c2.jpg;
+--skills-background-image: ../images/MyComputer.jpg;
+--interests-background-image: ../images/Harshnag.jpg;
+--contact-background-image: ../images/LakeFamily.png;
+--contact-modal-background-image: ../images/c2.jpg;
 
 }
 
@@ -59,7 +60,7 @@ body a:focus {
 }
 /*-- banner --*/ 
 .w3-banner-left{
-    background: url(../images/BillyBrownIII.jpg)no-repeat 0px 0px;
+    background: url(var(--main-background-image))no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,7 +70,7 @@ body a:focus {
 }
 
 	.w3-banner-right{
-    background: url(../images/c2.jpg)no-repeat 0px 0px;
+    background: url(var(--about-background-image))no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,15 +103,15 @@ body a:focus {
 /*-- //banner-bottom --*/ 
 
 .w3-banner_bottom1{
- background: url(../images/MyComputer.jpg)no-repeat 0px 0px;
+ background: url(var(--skills-background-image))no-repeat 0px 0px;
   
 }
 .w3-banner_bottom2{
- background: url(../images/Harshnag.jpg)no-repeat 0px 0px;
+ background: url(var(--interests-background-image))no-repeat 0px 0px;
   
 }
 .w3-banner_bottom3{
- background: url(../images/LakeFamily.png)no-repeat 0px 0px;
+ background: url(var(--contact-background-image))no-repeat 0px 0px;
  
 }
 .w3-banner_bottom1,.w3-banner_bottom2,.w3-banner_bottom3{
@@ -142,7 +143,7 @@ body a:focus {
 }
 .w3-banner-bot_icon_icon i {
     font-size: 3em;
-    color: #7dfa00;
+    color: var(--secondary-color);
 	
 }
 .w3-banner_bottom_txt {
@@ -164,7 +165,7 @@ body a:focus {
     padding: 1em 0;
 }
 .w3-heading-all span {
-    color: #7dfa00;
+    color: var(--secondary-color);
 }
 .w3ls-agile-left-info h4, .social-info h4 {
     font-size: 1.8em;
@@ -244,7 +245,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     padding: 2px;
 	border-radius: 50%;
     z-index: -1;
-    background:#7dfa00;
+    background:var(--secondary-color);
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
@@ -276,7 +277,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 padding:5em 0;
 }
 .skills{
-	background: url(../images/c2.jpg) no-repeat 0px 0px;
+	background: url(var(--default-background-image)) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -315,7 +316,7 @@ padding:5em 0;
 	text-align: center;
 }
 .w3_head_pop h3 span {
-    color: #7dfa00;
+    color: var(--secondary-color);
 }
 .w3_head_pop.skills_span span {
     color: #fff;
@@ -372,7 +373,7 @@ h3.agile_tittle.two {
 
 .bar-grids h6 {
     font-size: 1.2em;
-    color: #7dfa00;
+    color: var(--secondary-color);
     margin-bottom: 0.6em;
     text-transform: capitalize;
     font-weight: 600;
@@ -459,8 +460,8 @@ h3.agile_tittle.two {
     font-weight: normal;
     color: #fff;
     display: block;
-background-color: #7dfa00cc;
-    border-color: #7dfa00cc;
+background-color: var(--secondary-color)cc;
+    border-color: var(--secondary-color)cc;
     outline: none;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -474,7 +475,7 @@ background-color: #7dfa00cc;
     border-color: #000;
 }
 .contact {
-    background: url(../images/c2.jpg) no-repeat 0px 0px;
+    background: url(var(--contact-modal-background-image)) no-repeat 0px 0px;
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -533,7 +534,7 @@ background-color: #7dfa00cc;
     font-size: 14px;
 }
 .navbar-header.navbar-left.footer-logo h2 a {
-    color: #7dfa00;
+    color: var(--secondary-color);
     letter-spacing: 1px;
     font-weight: 500;
     font-family: 'Julius Sans One', sans-serif;
@@ -559,7 +560,7 @@ iframe {
 	padding:3em 0;
 }
 .w3ls-address-grid i{
-	color: #7dfa00;
+	color: var(--secondary-color);
     font-size: 20px;
     float: left;
     margin: 0 4% 0 0;
@@ -672,7 +673,7 @@ ul.w3_address li span a:hover{
 }
 ul.w3_address li i {
     font-size: 1.8em;
-    color: #7dfa00;
+    color: var(--secondary-color);
     text-align: center;
     display: inline-block;
     width: 75px;
@@ -845,7 +846,7 @@ ul.banner-menu-w3layouts li a:hover {
 .modal-header h4 span{
    text-transform: uppercase;
     /* font-weight: 300; */
-    color: #7dfa00;
+    color: var(--secondary-color);
     letter-spacing: 1px;
 }
 .modal-body p{
@@ -1221,7 +1222,7 @@ p.footer-w3l-te {
 }
 .w3-banner-bot_icon_icon i {
     font-size: 2.5em;
-    color: #7dfa00;
+    color: var(--secondary-color);
 }
 .w3layouts_gallery_grid a {
     bottom: 5em;
@@ -1253,7 +1254,7 @@ p.footer-w3l-te {
 }
 @media(max-width:320px){
 .w3-banner-left {
-    background: url(../images/BillyBrownIII.jpg)no-repeat -74px 0px;
+    background: url(var(--main-background-image))no-repeat -74px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
