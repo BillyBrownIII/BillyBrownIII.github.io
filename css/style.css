@@ -11,7 +11,7 @@ Additional editable elements VVV
 --*/
 
 element{
---main-bg-color: ; 
+--main-bg-color: #181B27; 
 --secondary-color: ;
 --default-background-image: ;
 --main-background-image: ;
@@ -20,74 +20,13 @@ element{
 --interests-background-image: ;
 --contact-background-image: ;
 --contact-modal-background-image;
---contact-email: ; 
---contact-phone: ;
---Name: ;
---Headline: ;
---link-Facebook: ;
---link-Twitter: ;
---link-GooglePlus: ;
---link-LinkedIn: ;
---Subheader1: ;
---Sub-Headline1: ;
---Subheader2: ;
---Sub-Headline2: ;
---Subheader3: ;
---Sub-Headline3: ;
---Skill1: ;
---Skill1Percent: ;
---Skill2: ;
---Skill2Percent: ;
---Skill3: ;
---Skill3Percent: ;
---Skill4: ;
---Skill4Percent: ;
---Knowledge1: ;
---Knowledge1Percent: ;
---Knowledge2: ;
---Knowledge2Percent: ;
---Knowledge3: ;
---Knowledge3Percent: ;
---Knowledge4: ;
---Knowledge4Percent: ;
---InterestPhoto1: ;
---InterestPhoto1-Title: ;
---InterestPhoto1-Description: ;
---InterestPhoto1-AltTag: ;
---InterestPhoto2: ;
---InterestPhoto2-Title: ;
---InterestPhoto2-Description: ;
---InterestPhoto2-AltTag: ;
---InterestPhoto3: ;
---InterestPhoto3-Title: ;
---InterestPhoto3-Description: ;
---InterestPhoto3-AltTag: ;
---InterestPhoto4: ;
---InterestPhoto4-Title: ;
---InterestPhoto4-Description: ;
---InterestPhoto4-AltTag: ;
---InterestPhoto5: ;
---InterestPhoto5-Title: ;
---InterestPhoto5-Description: ;
---InterestPhoto5-AltTag: ;
---InterestPhoto6: ;
---InterestPhoto6-Title: ;
---InterestPhoto6-Description: ;
---InterestPhoto6-AltTag: ;
---InterestPhoto7: ;
---InterestPhoto7-Title: ;
---InterestPhoto7-Description: ;
---InterestPhoto7-AltTag: ;
---InterestPhoto8: ;
---InterestPhoto8-Title: ;
---InterestPhoto8-Description: ;
---InterestPhoto8-AltTag: ;
+
 }
 
 body{col-md-3 w3ls_about_guage
 	margin:0;
 	font-family: 'Roboto', sans-serif; 
-	background: #181B27;
+	background: var(--main-bg-color);
 	height: 100%;
 	width: 100%;  
 }  
