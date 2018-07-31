@@ -57,7 +57,7 @@
             // Add the text
             ctx.fillStyle = settings.color;
 						var fontArgs = ctx.font.split(' ');
-						ctx.font = (W*1) + ' ' + fontArgs[fontArgs.length - 1];
+						ctx.font = (W*.6) + ' ' + fontArgs[fontArgs.length - 1];
             text = value + settings.unit;
             // Center the text, deducting half of text width from position x
             text_width = ctx.measureText(text).width;
