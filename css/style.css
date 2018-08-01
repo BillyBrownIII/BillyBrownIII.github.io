@@ -10,7 +10,7 @@ Author: Billy Brown
 Additional editable elements VVV
 --*/
 
-element{
+:root {
 --main-bg-color: #181B27;
 --secondary-color: #04b962;
 --white-color: #fff;
