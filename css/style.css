@@ -15,7 +15,7 @@ Additional editable elements VVV
 --secondary-color: #04b962;
 --white-color: #fff;
 --default-background-image: ../images/c2.jpg;
---main-background-image: BillyBrownIII.jpg;
+--main-background-image: url(../images/BillyBrownIII.jpg);
 --about-background-image: ../images/c2.jpg;
 --skills-background-image: ../images/MyComputer.jpg;
 --interests-background-image: ../images/Harshnag.jpg;
@@ -60,7 +60,7 @@ body a:focus {
 }
 /*-- banner --*/ 
 .w3-banner-left{
-    background: url(../images/(var(--main-background-image)))no-repeat 0px 0px;
+    background: var(--main-background-image)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
