@@ -13,7 +13,7 @@ Additional editable elements VVV
 :root {
 --main-bg-color: #181B27;
 --secondary-color: #04b962;
---white-color: #fff;
+--white-color: #fff; /*var(--white-color)*/
 --default-background-image: url(../images/c2.jpg);
 --main-background-image: url(../images/BillyBrownIII.jpg);
 --about-background-image: url(../images/c2.jpg);
@@ -80,7 +80,7 @@ body a:focus {
 }
 .w3-banner-left_txt h3 {
     font-size: 5em;
-    color: #fff;
+    color: var(--white-color);
     /* margin: 0 auto; */
     letter-spacing: 3px;
 	text-align: center;
@@ -90,7 +90,7 @@ body a:focus {
 	}
 .w3-banner-left_txt p {
     font-size: 2em;
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     font-weight: 700;
     letter-spacing: 3px;
@@ -135,7 +135,7 @@ body a:focus {
 }
 .w3-banner-bot_icon_txt a{
 	font-size: 2.3em;
-    color: #fff;
+    color: var(--white-color);
     font-weight: 600;
     letter-spacing: 2px;
 	font-family: 'Julius Sans One', sans-serif;
@@ -154,7 +154,7 @@ body a:focus {
 /*-- /about--*/ 
 .w3-heading-all h3 {
        font-size: 2.5em;
-    color: #fff;
+    color: var(--white-color);
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 800;
     letter-spacing: 2px;
@@ -170,7 +170,7 @@ body a:focus {
 .w3ls-agile-left-info h4, .social-info h4 {
     font-size: 1.8em;
     margin: 0;
-    color: #fff;
+    color: var(--white-color);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -208,7 +208,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     position: relative;
     text-decoration: none;
     z-index: 1;
-    color: #fff;
+    color: var(--white-color);
 	
 }
 .hovicon:after {
@@ -286,13 +286,13 @@ padding:5em 0;
     background-attachment: fixed;
 }
 .w3_agile_head p:before,.w3_agile_head p:after,.w3_agile_head p span:before,.w3_agile_head p span:after{
-    background: #fff;
+    background: var(--white-color);
 }
 .w3_agile_head h5 span{
-	color:#fff;
+	color:var(--white-color);
 }
 .skills p{
-	color:#fff;
+	color:var(--white-color);
 }
 .w3layouts_skills_grids{
 	margin:3em 0 0;
@@ -302,7 +302,7 @@ padding:5em 0;
 }
 .w3ls_about_guage h4 {
     font-size: 1.3em;
-    color: #fff;
+    color: var(--white-color);
     margin-top: 30px;
 }
 .w3_head_pop h3 {
@@ -319,7 +319,7 @@ padding:5em 0;
     color: var(--secondary-color);
 }
 .w3_head_pop.skills_span span {
-    color: #fff;
+    color: var(--white-color);
 }
 h3.skills_w3 {
     color: #0cbb67;
@@ -401,7 +401,7 @@ h3.agile_tittle.two {
 }
 .w3layouts_gallery_grid a {
     position: absolute;
-    color: #fff;
+    color: var(--white-color);
     z-index: 999;
     bottom: 3.5em;
     font-size: 1.5em;
@@ -415,12 +415,12 @@ h3.agile_tittle.two {
 /*-- //gallery --*/
 /*-- /contact --*/
 .contact h3.heading{
-	color:#fff;
+	color:var(--white-color);
 }
 .contact label {
     font-size: 16px;
     font-weight: normal;
-    color: #fff;
+    color: var(--white-color);
     text-transform: uppercase;
     padding-bottom: 10px;
 }
@@ -430,7 +430,7 @@ h3.agile_tittle.two {
 .contact input#name, .contact input#phone, .contact input#email, .contact textarea#message {
     font-size: 17px;
     font-weight: normal;
-    color: #fff;
+    color: var(--white-color);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.43);
@@ -443,7 +443,7 @@ h3.agile_tittle.two {
 .contact input#name, .contact input#phone,.contact input#email,.contact textarea#message {
     font-size: 17px;
     font-weight: normal;
-    color: #fff;
+    color: var(--white-color);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.43);
@@ -458,7 +458,7 @@ h3.agile_tittle.two {
     letter-spacing: 1px;
     text-align: center;
     font-weight: normal;
-    color: #fff;
+    color: var(--white-color);
     display: block;
 background-color: var(--secondary-color)cc;
     border-color: var(--secondary-color)cc;
@@ -480,17 +480,17 @@ background-color: var(--secondary-color)cc;
 	background-attachment:fixed;
 }
 .contact_head h3 {
-    color: #fff;
+    color: var(--white-color);
 }
 /*-- //contact --*/
 /*--footer--*/
 .footer h4 {
     margin-bottom: 15px;
     font-size: 23px;
-    color: #fff;
+    color: var(--white-color);
 }
 .phone h4 {
-    color: #fff;
+    color: var(--white-color);
 }
 .ftr-grid.ftr-mid ul li {
     display: inline;
@@ -516,7 +516,7 @@ background-color: var(--secondary-color)cc;
 }
 .address i.fa {
     font-size: 25px;
-    color: #fff;
+    color: var(--white-color);
 }
 .address p {
     color: #d4d4d4;
@@ -528,7 +528,7 @@ background-color: var(--secondary-color)cc;
     color: #d4d4d4;
 }
 .phone p {
-    color: #fff;
+    color: var(--white-color);
     line-height: 28px;
     letter-spacing: 0px;
     font-size: 14px;
@@ -573,12 +573,12 @@ iframe {
 }
 .w3-address1 p {
     font-size: 1.2em;
-    color: #fff;
+    color: var(--white-color);
     line-height: 1.5;
 }
 .w3-address1 p a{
 	text-decoration:none;
-	color: #fff;
+	color: var(--white-color);
 }
 .w3-address1 p a:hover{
 	text-decoration:underline;
@@ -593,7 +593,7 @@ iframe {
 }
 .footer-class {
    float: none;
-    color: #fff;
+    color: var(--white-color);
     letter-spacing: 2px;
     text-align: center;
 }
@@ -602,7 +602,7 @@ iframe {
 	text-decoration:none;
 }
 .footer-class a:hover {
-	color:#fff;
+	color:var(--white-color);
 	text-decoration:underline;
 }
 .ftr-menu{
@@ -613,7 +613,7 @@ iframe {
 }
 .ftr-menu ul li a {
     font-size: 1.1em;
-    color: #fff;
+    color: var(--white-color);
     margin: 0 16px;
     letter-spacing: 2px;
 	transition: 0.5s all;
@@ -636,7 +636,7 @@ iframe {
     margin: 0 auto;
 }
 p.footer-w3l-te{
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.3em;
     text-align: center;
     width: 80%;
@@ -664,7 +664,7 @@ ul.w3_address li span {
 }
 ul.w3_address li span a {
 	text-decoration:none;
-	color:#fff;
+	color:var(--white-color);
 	font-weight: 500;
 }
 ul.w3_address li span a:hover{
@@ -703,7 +703,7 @@ ul.banner-menu-w3layouts li a {
     font-weight: 600;
 }
 ul.banner-menu-w3layouts li a:hover {
-    color: #fff;
+    color: var(--white-color);
 }
 /*-- social-wthree-icons --*/  
 .social-wthree-icons.bnragile-icons {
@@ -718,7 +718,7 @@ ul.banner-menu-w3layouts li a:hover {
 }
 .social-wthree-icons ul li a.fa {
     font-size: 1em;
-    color: #fff;
+    color: var(--white-color);
     line-height: 2.5em;
     display: inline-block;
     -webkit-transition: .5s all;
@@ -875,7 +875,7 @@ ul.banner-menu-w3layouts li a:hover {
 }
 .w3layouts_gallery_grid a {
     position: absolute;
-    color: #fff;
+    color: var(--white-color);
     z-index: 999;
     bottom: 3.5em;
     font-size: 1.5em;
@@ -907,7 +907,7 @@ ul.banner-menu-w3layouts li a:hover {
     width: 90%;
 }
 p.footer-w3l-te {
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.3em;
     text-align: center;
     width: 65%;
