@@ -14,13 +14,13 @@ Additional editable elements VVV
 --main-bg-color: #181B27;
 --secondary-color: #04b962;
 --white-color: #fff;
---default-background-image: ../images/c2.jpg;
+--default-background-image: url(../images/c2.jpg);
 --main-background-image: url(../images/BillyBrownIII.jpg);
---about-background-image: ../images/c2.jpg;
---skills-background-image: ../images/MyComputer.jpg;
---interests-background-image: ../images/Harshnag.jpg;
---contact-background-image: ../images/LakeFamily.png;
---contact-modal-background-image: ../images/c2.jpg;
+--about-background-image: url(../images/c2.jpg);
+--skills-background-image: url(../images/MyComputer.jpg);
+--interests-background-image: url(../images/Harshnag.jpg);
+--contact-background-image: url(../images/LakeFamily.png);
+--contact-modal-background-image: url(../images/c2.jpg);
 
 }
 
@@ -70,7 +70,7 @@ body a:focus {
 }
 
 	.w3-banner-right{
-    background: url(var(--about-background-image))no-repeat 0px 0px;
+    background: var(--about-background-image)no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -103,15 +103,15 @@ body a:focus {
 /*-- //banner-bottom --*/ 
 
 .w3-banner_bottom1{
- background: url(var(--skills-background-image))no-repeat 0px 0px;
+ background: var(--skills-background-image)no-repeat 0px 0px;
   
 }
 .w3-banner_bottom2{
- background: url(var(--interests-background-image))no-repeat 0px 0px;
+ background: var(--interests-background-image)no-repeat 0px 0px;
   
 }
 .w3-banner_bottom3{
- background: url(var(--contact-background-image))no-repeat 0px 0px;
+ background: var(--contact-background-image)no-repeat 0px 0px;
  
 }
 .w3-banner_bottom1,.w3-banner_bottom2,.w3-banner_bottom3{
@@ -277,7 +277,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 padding:5em 0;
 }
 .skills{
-	background: url(var(--default-background-image)) no-repeat 0px 0px;
+	background: var(--default-background-image) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -475,7 +475,7 @@ background-color: var(--secondary-color)cc;
     border-color: #000;
 }
 .contact {
-    background: url(var(--contact-modal-background-image)) no-repeat 0px 0px;
+    background: var(--contact-modal-background-image) no-repeat 0px 0px;
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -1254,7 +1254,7 @@ p.footer-w3l-te {
 }
 @media(max-width:320px){
 .w3-banner-left {
-    background: url(var(--main-background-image))no-repeat -74px 0px;
+    background: var(--main-background-image)no-repeat -74px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1293,5 +1293,3 @@ p.footer-w3l-te {
     width: 84%;
 }
 }
-
-/*-- /responsive design --*/
