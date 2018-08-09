@@ -11,7 +11,7 @@ Additional editable elements VVV
 --*/
 
 :root {
---main-bg-color: #181B27;
+--main-bg-color: #000000;
 --secondary-color: #04b962;
 --white-color: #fff; /*var(--white-color)*/
 --default-background-image: url(../images/c2.jpg);
